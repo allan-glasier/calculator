@@ -3,54 +3,7 @@ import styled from "styled-components";
 import "normalize.css";
 import GlobalStyles from "../styles/GlobalStyles";
 
-// - Mobile: 375px
-// - Desktop: 1440px
-
-const CalculatorStyles = styled.div`
-  .keyboard {
-    background: #242d44;
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    gap: 25px;
-    padding: 32px 30px;
-    margin-top: 24px;
-    border-radius: 10px;
-    .span {
-      grid-column: span 2;
-    }
-    .key {
-      background: #eae3dc;
-      box-shadow: inset 0px -4px 0px #b3a497;
-      font-size: 2rem;
-      line-height: 2.25rem;
-      letter-spacing: -0.533333px;
-      border-radius: 10px;
-      height: 64px;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-    }
-
-    .secondary {
-      background: #647198;
-      box-shadow: inset 0px -4px 0px #414e73;
-      color: #fff;
-      text-transform: uppercase;
-      font-size: 1.25rem;
-      line-height: 1.375rem;
-      letter-spacing: -0.333333px;
-    }
-
-    .equals {
-      background: #d03f2f;
-      box-shadow: inset 0px -4px 0px #93261a;
-      font-size: 1.25rem;
-      letter-spacing: -0.333333px;
-      line-height: 1.375rem;
-      color: #fff;
-    }
-  }
-`;
+const CalculatorStyles = styled.div``;
 
 export default function Index() {
   return (
